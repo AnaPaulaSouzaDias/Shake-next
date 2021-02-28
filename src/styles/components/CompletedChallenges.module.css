@@ -8,7 +8,6 @@
   border-bottom: 1px solid #d7d8da;
 
   font-weight: 500;
-
 }
 
 .completedChallengesContainer span:first-child{
@@ -18,4 +17,3 @@
 .completedChallengesContainer span:last-child{
   font-size: 1,5rem;
  }
- 
