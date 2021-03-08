@@ -1,49 +1,79 @@
-# Shake-next
-contador de tempo pra uma atividade
+<p align="center">
+   <img src="./.github/logo.png" alt="Shake" width="300"/>
+</p>
 
-# Getting Started with Create React App
+<p align="center">	
+   <a href="https://www.linkedin.com/in/ana-paula-souza-dias-b63631197/">
+      <img alt="Ana Paula" src="https://media-exp1.licdn.com/dms/image/C5603AQE2__IItbGEIg/profile-displayphoto-shrink_200_200/0/1590704192099?e=1620864000&v=beta&t=wPHE2TpQbOzokQZMwmBLATBnpbOh1_vrDYLVM5OZfTg" />
+   </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <a aria-label="Completed" href="https://nextlevelweek.com/episodios/react/1/edicao/4">
+    <img src="https://img.shields.io/badge/Move.It-NLW 4-5965e0?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
+</p>
 
-## Available Scripts
+> :rocket: Move It is a project to help people to make more exercises. Next Level Week #04 #NLW @Rocketseat
 
-In the project directory, you can run:
+<p align="center">
+    <a href="README-pt.md">Portuguese</a>
+ </p>
 
-### `yarn start`
+<div align="center">
+  <sub>The NLW #4 project. Built with ❤︎ by
+    <a href="https://github.com/AnaPaulaSouzaDias">Ana Paula</a>  
+  </sub>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2 align="left"> 📥 Layout available for download at: </h2>
+<p align="center">
+    <a title="Download .fig Web" href="https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/?viewer=1&node-id=160:2761">
+        <img alt="Direct Download" src="https://img.shields.io/badge/Download Web-black?style=flat-square&logo=figma&logoColor=red" width="200px" />
+    </a>
+</p>
 
-### `yarn test`
+<div>
+   <img src="./.github/screenshot-1.png" width="400px">
+   <img src="./.github/screenshot-2.png" width="400px">
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :computer: Technologies
+This project was made using the follow technologies:
 
-### `yarn build`
+* [Typescript](https://www.typescriptlang.org/)      
+* [React](https://reactjs.org/)      
+* [Next.js](https://nextjs.org/)      
+     
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# :rocket: Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Pomodoro timer.
+* Help to get up of chair and make some exercise.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# :construction_worker: How to run
+```bash
+# Clone Repository
+$ git clone https://github.com/AnaPaulaSouzaDias/Shake-next
+```
 
-### `yarn eject`
+### 💻 Run Web Project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Install Dependencies
+$ yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run Aplication
+$ yarn dev
+```
+Go to http://localhost:3000/ to see the result.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# :closed_book: License
 
-## Learn More
+Released in 2020 :closed_book: License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Made with love by [Ana Paula Souza Dias](https://github.com/AnaPaulaSouzaDias) 🚀.
+This project is under the [MIT license](./LICENSE).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+Give a ⭐️ if this project helped you!
