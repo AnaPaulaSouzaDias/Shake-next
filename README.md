@@ -4,7 +4,7 @@
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/ana-paula-souza-dias-b63631197/">
-      <img alt="Ana Paula" src="https://media-exp1.licdn.com/dms/image/C5603AQE2__IItbGEIg/profile-displayphoto-shrink_200_200/0/1590704192099?e=1620864000&v=beta&t=wPHE2TpQbOzokQZMwmBLATBnpbOh1_vrDYLVM5OZfTg" />
+      <img alt="Ana Paula"  />
    </a>
 
   <a aria-label="Completed" href="https://nextlevelweek.com/episodios/react/1/edicao/4">
