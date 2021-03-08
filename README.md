@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./.github/logo.png" alt="Shake" width="250" height="50" viewBox= "0 0 250 50">
+   <img src="./.github/logo.png" alt="Shake" width="250" height="250" viewBox= "0 0 250 50">
 </p>
 
 <p align="center">	
