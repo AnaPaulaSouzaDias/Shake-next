@@ -1,57 +1,64 @@
-import { useContext } from 'react';
-import { ChallengesContext } from '../contexts/ChallengesContext';
-import { CountdownContext } from '../contexts/CountdownContext';
-import styles from '../styles/components/ChallengeBox.module.css';
+import React, { useContext } from 'react'
+import { ChallengesContext } from '../contexts/ChallengesContext'
+import { CountdownContext } from '../contexts/CountdownContext'
+import styles from '../styles/components/ChallengeBox.module.css'
 
-export function ChallengeBox() {
+const ChallengeBox: React.FC = () => {
+  const { activeChallenge, resetChallenge, completeChallenge } = useContext(
+    ChallengesContext
+  )
+  const { resetCountdown } = useContext(CountdownContext)
 
-  const { activeChallenge, resetChallenge, completedChallenge } = useContext(ChallengesContext);
-  const { resetCountDown } = useContext(CountdownContext);
-
-  function handleChallendSucceeded() {
-    completedChallenge();
-    resetCountDown();
+  function handleChallengeSucceeded() {
+    completeChallenge()
+    resetCountdown()
   }
-  function handleChallendFailed() {
-    resetChallenge();
-    resetCountDown();
 
+  function handleChallengeFailed() {
+    resetChallenge()
+    resetCountdown()
   }
 
   return (
     <div className={styles.challengeBoxContainer}>
-      { activeChallenge ? (
+      {activeChallenge ? (
         <div className={styles.challengeActive}>
-          <header>Ganhe {activeChallenge.amount} </header>
+          <header>Ganhe {activeChallenge.amount} xp</header>
 
           <main>
-            <img src={`icons/${activeChallenge.type}.svg`} />
-            <strong>Novo desafio</strong>
+            <img src={`icons/${activeChallenge.type}.svg`} alt="Body" />
+            <strong>Nove Desafio</strong>
             <p>{activeChallenge.description}</p>
           </main>
+
           <footer>
-            <button type="button"
+            <button
+              type="button"
               className={styles.challengeFailedButton}
-              onClick={handleChallendFailed}
-            >Falhei</button>
-
-
-            <button type="button"
-              onClick={handleChallendSucceeded}
-              className={styles.challengeSucceededButton}>
+              onClick={handleChallengeFailed}
+            >
+              Falhei
+            </button>
+            <button
+              type="button"
+              className={styles.challengeSucceededButton}
+              onClick={handleChallengeSucceeded}
+            >
               Completei
             </button>
           </footer>
         </div>
       ) : (
-          <div className={styles.challengeBoxContainer}>
-            <strong>Finalize um clico para receber um desafio</strong>
-            <p>
-              <img src="icons/level-up.svg" alt="Level up" />
-          Avance de level completando desafios.
-        </p>
-          </div>
-        )}
-    </div >
+        <div className={styles.challengeNotActive}>
+          <strong>Finalize um ciclo para receber um desafio</strong>
+          <p>
+            <img src={`icons/level-up.svg`} alt="Level Up" />
+            Avance um level completando desafios
+          </p>
+        </div>
+      )}
+    </div>
   )
 }
+
+export default ChallengeBox
